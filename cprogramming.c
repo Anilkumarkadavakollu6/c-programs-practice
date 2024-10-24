@@ -144,6 +144,14 @@ void dimond(int n){
 
 }
 
+void arrayaddress(){
+    char arr[] ={'h','e','l','l','o'};
+    for(int i =0;i<sizeof(arr)/sizeof(arr[0]);i++){
+        printf("%zu\n",&arr[i]);
+    }
+    printf("\n");
+}
+
 int main(){
     // float p,r,t;
     // printf("\nEnter Principle amount:  \n");
